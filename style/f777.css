@@ -1,0 +1,103 @@
+/* General */
+* {
+	font-family: "Tomorrow", sans-serif; /* Default font */
+	font-weight: 450;
+}
+
+body {
+	background-image: url(../assets/f777-bg.jpg);
+}
+
+:root {
+	--section-grad01: #00e1ff;
+	--section-grad02: #0066ff;
+}
+
+section {
+	background-image: linear-gradient(var(--section-grad01), var(--section-grad02));
+	opacity: 0.5;
+}
+section:hover {
+	transition-duration: 500ms;
+	opacity: 1;
+}
+section > * {
+	z-index: 1;
+	opacity: 1;
+}
+
+h1, h2, h3 {
+	color: white;
+}
+
+main p {
+	color: white;
+	font-weight: 500;
+}
+
+img {
+	width: 32rem;
+	height: 32rem;
+	border: 2px solid black;
+	border-radius: 3rem;;
+}
+
+#title {
+	width: 42.7rem;
+	height: 9.1rem;
+}
+
+div > a {
+	background-image: linear-gradient(#ff00f2, #9900ff);
+	border-radius: 1.5rem;
+	margin: 1rem;
+	padding: 1rem;
+	border: 1px black solid;
+	color: white;
+}
+
+section > section {
+	border: white 2px solid;
+}
+
+#discography {
+	width: 50%;
+	flex-flow: row nowrap;
+	
+	text-align: center;
+	margin: auto;
+
+	justify-content: space-around;
+	align-items: center;
+
+	padding: 1rem;
+}
+
+
+@media screen and (max-width: 1080px) {
+	#discography {
+		width: 55%;
+	}
+	img {
+		width: 	26rem;
+		height: 26rem;
+	}
+}
+@media screen and (max-width: 768px) {
+	#discography {
+		width: 65%;
+	}
+	img {
+		width: 	22rem;
+		height: 22rem;
+	}
+}
+@media screen and (max-width: 576px) {
+	#discography {
+		width: 75%;
+	}
+	img {
+		width: 	16rem;
+		height: 16rem;
+	}
+}

@@ -3,3 +3,44 @@
 	font-family: "Tomorrow", sans-serif; /* Default font */
 	font-weight: 450;
 }
+
+body {
+	background-image: url(../assets/djnate-bg.jpg);
+}
+
+section {
+	background-image: linear-gradient(var(--violet), var(--lightblue));
+}
+
+img {
+	width: 32rem;
+	height: 32rem;
+}
+
+#title {
+	width: 47rem;
+	height: 15rem;
+}
+
+@media screen and (max-width: 1080px) {
+	img {
+		width: 	28rem;
+		height: 28rem;
+	}
+}
+@media screen and (max-width: 768px) {
+	img {
+		width: 	24rem;
+		height: 24rem;
+	}
+}
+@media screen and (max-width: 576px) {
+	img {
+		width: 	20rem;
+		height: 20rem;
+	}
+	#title {
+		width: 31rem;
+		height: 10rem;
+	}
+}

@@ -4,6 +4,10 @@
 	font-weight: 450;
 }
 
+section {
+	background-image: linear-gradient(var(--mint), var(--lightmint));
+}
+
 /* IDs */
 #artist-list {
 	display: flex;

@@ -1,0 +1,80 @@
+/* General */
+* {
+	font-family: "Tomorrow", sans-serif; /* Default font */
+	font-weight: 450;
+}
+
+body {
+	background-image: url(../assets/nc-bg.jpg);
+}
+
+section {
+	background-image: linear-gradient(#ff7b00, #ff1100);
+}
+
+main p {
+	color: white;
+	font-weight: 500;
+}
+
+img {
+	width: 32rem;
+	height: 32rem;
+	border-radius: 3rem;;
+}
+
+#title {
+	width: 50rem;
+	height: 28.1rem;
+}
+
+div > a {
+	border-radius: 1.5rem;
+	margin: 1rem;
+	padding: 1rem;
+	color: white;
+}
+
+#discography {
+	background-image: linear-gradient(#ff7b00, #ff1100);
+
+	width: 50%;
+	flex-flow: row nowrap;
+	
+	text-align: center;
+	margin: auto;
+
+	justify-content: space-around;
+	align-items: center;
+
+	padding: 1rem;
+}
+
+
+@media screen and (max-width: 1080px) {
+	#discography {
+		width: 55%;
+	}
+	img {
+		width: 	26rem;
+		height: 26rem;
+	}
+}
+@media screen and (max-width: 768px) {
+	#discography {
+		width: 65%;
+	}
+	img {
+		width: 	22rem;
+		height: 22rem;
+	}
+}
+@media screen and (max-width: 576px) {
+	#discography {
+		width: 75%;
+	}
+	img {
+		width: 	16rem;
+		height: 16rem;
+	}
+}

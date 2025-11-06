@@ -6,8 +6,9 @@
 	<meta name="author" content="Esteban Bracamonte">
 
 	<!-- IMPORTS -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aldrich&family=Orbitron:wght@400..900&family=Tomorrow&display=swap">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	
 	<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="style/main.css">
@@ -19,6 +20,10 @@
 	<nav>
 		<span class="material-symbols-outlined" id="sidebar-open">menu</span>
 		<h2>GD: The Musical</h2>
+		<audio controls>
+			<source src="assets/audio/Clubstep.mp3" type="audio/mpeg">
+		</audio>
+		<a href="index.html" class="material-symbols-outlined" style="margin-left: auto; color: black;">home</a>
 	</nav>
 
 	<aside id="sidebar">
@@ -27,63 +32,52 @@
     <a href="#home">DJ-Nate</a>
     <a href="f777.html">F-777</a>
     <a href="creo.html">Creo</a>
-    <a href="rukkus.html">Rukkus / NK</a>
+    <a href="rukkus.html">Rukkus</a>
 	</aside>
 
 	<header>
-		<h1>DJ-Nate</h1>
+		<img src="assets/dj-nate title.png" alt="DJ-Nate" id="title">
 	</header>
 
 	<main>
 		<section>
-			<h3>Introduction</h3>
-			<div>
-				<p>
-					Nathan Ingalls, known as DJ-Nate, is an American DJ and musical productor.
-					He's a popular artist inside Geometry Dash, having 4 of his songs featured in the main levels
-					and multiple more being used by the users in custom levels.
-				</p>
+			<div class="flex">
+				<div>
+					<p>
+						Nathan Ingalls, known as DJ-Nate, is an American DJ and musical productor.
+						He's a popular artist inside Geometry Dash, having 4 of his songs featured in the main levels
+						and multiple more being used by the users in custom levels.
+					</p>
+					<p>
+						He was born on March 5th, 1991, in Chicago, Illinois. He started producing music on 2005.
+						However, it wasn't until 2010 where he published his first hit: Electrodynamix, which eventually would find its way into Geometry Dash,
+						being his third song to achieve that after Theory of Everything and <a href="">Clubstep</a>.
+					</p>
+					<p>
+						On 2015, after an update to the game that allowed custom songs to be used on levels, his popularity exploded once more.
+						Lots of players started using his songs on their own levels, some of which became icons of the game, and even before that, his song Clubstep was already being inmortalized
+						in the minds of players
+					</p>
+					<p>
+						He mostly stopped publishing music after 2018, with his last relevant song being <a href=""><span style="color: BLUE;">Final Theory</span></a>, the fourth and last part of his
+						<a href="">Theory</a> <a href="">of</a> <a href="">Everything</a> series, released on March 9th, 2020.
+					</p>
+				</div>
+
+				<img src="assets/dj-nate.jpg" alt="dj-nate">
 			</div>
 		</section>
-		<section>
-			<h3>About</h3>
-			<div>
-				<p>
-					He was born on March 5th, 1991, in Chicago, Illinois. He started producing music on 2005.
-					However, it wasn't until 2010 where he published his first hit: Electrodynamix,which eventually would find its way into Geometry Dash,
-					being his third song to achieve that after Theory of Everything and <a href="">Clubstep</a>, probably his most iconic and known song.
-				</p>
-				<p>
-					On 2015, after an update to the game that allowed custom songs to be used on levels, his popularity exploded once more.
-					Lots of players started using his songs on their own levels, some of which became icons of the game, like
-					<a href="">Ice Carbon Diablo X</a>, <a href="">The Golden</a>, <a href="">Acheron</a> or <a href="">Amethyst</a>,
-					all of which were the hardest GD level of their time.
-				</p>
-				<p>
-					He mostly stopped publishing music after 2018, with his last relevant song being <a href=""><span style="color: BLUE;">Final Theory</span></a>, the fourth and last part of his
-					<a href="">Theory</a> <a href="">of</a> <a href="">Everything</a> series, released on March 9th, 2020.
-				</p>
-			</div>
-		</section>
-		<section>
+		<section style="width: 33%;">
 			<h3>Notable discography:</h3>
-			<div> <!-- Make this 4 horizontal rows -->
-				<h4>Featured in official levels:</h4>
+			<div>
 				<p>Clubstep</p>
 				<p>Electrodynamix</p>
 				<p>Theory of Everything 1 & 2</p>
-				
-				<h4>Featured in popular custom levels: </h4>
 				<p>Thermodynamix</p>
-				<p>Thunderzone 2</p>
-				<p>Ricochet Love</p>
 			</div>
 		</section>
 	</main>
 	
-	<footer>
-		<p>Made by Synchiro</p>
-	</footer>
 	<script src="script/main.js"></script>
 </body>
 </html>

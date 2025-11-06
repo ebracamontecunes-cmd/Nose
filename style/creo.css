@@ -1,0 +1,62 @@
+/* General */
+* {
+	font-family: "Tomorrow", sans-serif; /* Default font */
+	font-weight: 450;
+}
+
+body {
+	background-image: url(../assets/creo-bg.jpg);
+}
+
+section {
+	background-image: linear-gradient(#80808080, #a0a0a0a0);
+	border: 2px white solid;
+}
+
+h1, h2, h3 {
+	color: white
+}
+
+main p {
+	color: black;
+	font-weight: 600;
+}
+
+img {
+	width: 32rem;
+	height: 32rem;
+	border-radius: 0rem 0rem 5rem 0rem;
+}
+
+#title {
+	width: 40rem;
+	height: 9rem;
+}
+
+@media screen and (max-width: 1080px) {
+	#discography {
+		width: 55%;
+	}
+	img {
+		width: 	26rem;
+		height: 26rem;
+	}
+}
+@media screen and (max-width: 768px) {
+	#discography {
+		width: 65%;
+	}
+	img {
+		width: 	22rem;
+		height: 22rem;
+	}
+}
+@media screen and (max-width: 576px) {
+	#discography {
+		width: 75%;
+	}
+	img {
+		width: 	16rem;
+		height: 16rem;
+	}
+}
