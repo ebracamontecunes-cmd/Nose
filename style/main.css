@@ -11,7 +11,7 @@ html {
 }
 body {
 	font-size: 18px;
-	background-image: url("../assets/background.jpg");
+	background-image: url("../assets/index/bg.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 }
@@ -20,11 +20,11 @@ body {
 :root {
 	--lightblue:			lightblue;
 	--lightyellow:		#ffffd0;
-	--violet: #ff90ff;
+	--violet:					#ff90ff;
 	--highlightblue:	aliceblue;
-	--highlightyellow: #ffffe6;
-	--mint: #00ffc0;
-	--lightmint: #79ffdd;
+	--highlightyellow:#ffffe6;
+	--mint: 					#00ffc0;
+	--lightmint:			#79ffdd;
 }
 
 /* Fonts */
@@ -105,6 +105,7 @@ aside {
 	flex-flow: column nowrap;
 	background-image: linear-gradient(90deg, var(--lightyellow), gold);
 	gap: 1rem;
+	z-index: 9;
 }
 header {
 	display: flex;

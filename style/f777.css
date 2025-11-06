@@ -5,7 +5,7 @@
 }
 
 body {
-	background-image: url(../assets/f777-bg.jpg);
+	background-image: url(../assets/F-777/bg.jpg);
 }
 
 :root {
@@ -45,6 +45,8 @@ img {
 #title {
 	width: 42.7rem;
 	height: 9.1rem;
+	
+	border: none;
 }
 
 div > a {
