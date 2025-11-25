@@ -141,7 +141,7 @@ footer {
 }
 #sidebar {
 	height: 100%;
-	width: 250px;
+	width: 25rem;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -235,5 +235,10 @@ main p {
 	#main-subtitle {
 		width: 22rem;
 		height: 3rem;
+	}
+
+	#sidebar {
+		height: auto;
+		width: 100%;
 	}
 }

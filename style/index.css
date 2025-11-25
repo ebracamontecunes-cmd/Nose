@@ -26,3 +26,51 @@ section {
 #sidebar-open:target {
 	background-color: var(--highlightyellow);
 }
+
+#lowdiv {
+	width: 40%;
+	margin: auto;
+	text-align: center
+}
+
+@media screen and (max-width: 1080px) {
+	#lowdiv {
+		width: 55%;
+	}
+}
+@media screen and (max-width: 768px) {
+	body {
+		font-size: 16px;
+	}
+
+	#main-title {
+		width: 60rem;
+		height: 8rem;
+	}
+	#main-subtitle {
+		width: 28rem;
+		height: 3.6rem;
+	}
+	#lowdiv {
+		width: 70%;
+	}
+}
+
+
+@media screen and (max-width: 576px) {
+	header {
+		width: 100%;
+		height: 12rem;
+	}
+	#main-title {
+		width: 75%;
+		height: 50%;
+	}
+	#main-subtitle {
+		width: 40%;
+		height: 30%;
+	}
+	#lowdiv {
+		width: 85%;
+	}
+}
